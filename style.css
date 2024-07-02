@@ -1,0 +1,89 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    color: aliceblue;
+    background-color: #101010;
+    font-family: 'Poppins', Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: aliceblue;
+  margin-bottom: 8px;
+}
+
+/* Add your custom styles below */
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.greeting {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+small {
+  color: #ffbb1c;
+}
+
+.banner {
+  width: 100%;
+}
+.headline {
+  text-align: justify;
+  font-size: medium;
+  margin: 12px 0 24px 0;
+}
+
+.bece {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+
+.subjects {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 0.5px solid azure;
+  padding: 15px;
+  background-color: #212121;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 600;
+  background-color: aliceblue;
+  text-decoration: none;
+  margin-top: 32px;
+  border-radius: 24px;
+  height: 52px;
+  padding: 0 32px;  
+}
