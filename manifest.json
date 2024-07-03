@@ -9,13 +9,19 @@
   "background": {
   "service": "service-worker.js",
   "service_worker": "service-worker.js"
-},
+  },
   "lang": "en",
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#212121",
   "background_color": "#101010",
   "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://prepx.vercel.app/manifest.json)"
+    }
+  ],
   "display_override": [
     "window-controls-overlay",
     "standalone",
