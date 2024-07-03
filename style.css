@@ -99,5 +99,33 @@ small {
   margin-top: 32px;
   border-radius: 24px;
   height: 52px;
-  padding: 0 32px;  
+  padding: 0 24px;  
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  background-color: #3CDB83;
+  text-decoration: none;
+  margin-top: 32px;
+  border-radius: 24px;
+  height: 52px;
+  padding: 0 24px;
+}
+
+.cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  background-color: tomato;
+  text-decoration: none;
+  margin-top: 32px;
+  border-radius: 24px;
+  height: 52px;
+  padding: 0 24px;
 }
