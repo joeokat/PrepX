@@ -102,7 +102,7 @@ small {
   padding: 0 24px;  
 }
 
-.follow {
+.follow-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +116,7 @@ small {
   padding: 0 24px;
 }
 
-.cancel {
+.cancel-btn {
   display: flex;
   align-items: center;
   justify-content: center;
