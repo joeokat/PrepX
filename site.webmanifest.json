@@ -21,5 +21,14 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#212121",
-  "background_color": "#101010"
+  "background_color": "#101010",
+  "orientation": "portrait",
+	"lang": "en",
+  "display_override": [
+ 		 	"window-controls-overlay",
+  			"standalone",
+  			"browser"
+	],
+  "categories": ["Sports", "Betting", "Games"],
+	"Description": "Ace your exams with confidence! Get expert resources to help you succeed with flying colors."
 }
