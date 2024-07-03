@@ -1,20 +1,24 @@
 {
   "short_name": "Prep X",
-  "name": "Prep Exams Ghana",
-	"Description": "Ace your exams with confidence! Get expert resources to help you succeed with flying colors.",
-	"categories": ["Sports", "Betting", "Games"],
-	"lang": "en",
-	"start_url": ".",
+  "name": "Prep X Consult",
+  "categories": [
+    "books",
+    "education",
+    "news"
+  ],
+  "lang": "en",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#212121",
   "background_color": "#101010",
   "orientation": "portrait",
-	
-	"display_override": [
- 		 	"window-controls-overlay",
-  			"standalone",
-  			"browser"
-	],
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser",
+    "fullscreen",
+    "minimal-ui"
+  ],
   "icons": [
     {
       "src": "favicon.ico",
@@ -31,5 +35,8 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "description": "Ace your exams with confidence! Get expert tips and resources to help you pass with flying colors",
+  "scope": "https://prepx.vercel.app",
+  "dir": "auto"
 }
