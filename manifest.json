@@ -1,14 +1,17 @@
 {
   "short_name": "Prep X",
   "name": "Prep X Consult",
+  "appid": "app.vercel.prepx",
   "description": "Ace your exams with confidence with premium access to verified BECE and WASSCE exam scripts.",
-  "categories": [
-    "books",
-    "education",
-    "news"
-  ],
+  "categories": [    "books",    "education",    "news"  ],
+  "scope": "https://prepx.vercel.app",
+  "dir": "auto",
+  "background": {
+  "service": "service-worker.js",
+  "service_worker": "service-worker.js"
+},
   "lang": "en",
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#212121",
   "background_color": "#101010",
@@ -36,7 +39,6 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "scope": "https://prepx.vercel.app",
-  "dir": "auto"
+  ]
+  
 }
