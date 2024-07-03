@@ -1,7 +1,7 @@
 {
   "short_name": "Prep X",
   "name": "Prep X Consult",
-  "Description": "Ace your exams with confidence! Get expert resources to help you succeed with flying colors.",
+  "description": "Ace your exams with confidence!",
   "categories": [
     "books",
     "education",
@@ -37,7 +37,6 @@
       "sizes": "512x512"
     }
   ],
-  "description": "Ace your exams with confidence! Get expert tips and resources to help you pass with flying colors",
   "scope": "https://prepx.vercel.app",
   "dir": "auto"
 }
