@@ -2,7 +2,7 @@
   "short_name": "Prep X",
   "name": "Prep X Consult",
   "appid": "app.vercel.prepx",
-  "description": "Ace your exams with confidence with premium access to verified BECE and WASSCE exam scripts.",
+  "description": "Access verified BECE, WASSCE & NOVDEC exam scripts for your revision. Ace your exams with confidence!",
   "categories": [    "books",    "education",    "news"  ],
   "scope": "https://prepx.vercel.app",
   "dir": "auto",
