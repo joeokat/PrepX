@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 .svg-icon {
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 52px;
   height: 52px;
   border-radius: 50px;
@@ -45,9 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 small {
-  background: linear-gradient(45deg, rgb(115, 204, 175), rgb(41, 186, 150));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: aqua;
+  font-weight: lighter;
 }
 
 .banner {
@@ -100,6 +101,7 @@ small {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   color: black;
   font-weight: 600;
   background-color: aliceblue;
@@ -110,13 +112,29 @@ small {
   padding: 0 24px;  
 }
 
-.follow-btn {
+.whatsapp-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   color: white;
   font-weight: 600;
-  background-color: #46CF23;
+  background-color: #00C54F;
+  text-decoration: none;
+  margin-top: 32px;
+  border-radius: 24px;
+  height: 52px;
+  padding: 0 24px;
+}
+
+.whatsapp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+  font-weight: 600;
+  background-color: #00C54F;
   text-decoration: none;
   margin-top: 32px;
   border-radius: 24px;
