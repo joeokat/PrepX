@@ -18,7 +18,7 @@
   "orientation": "portrait",
   "related_applications": [
     {
-      "platform": "webapp",
+      "platform": "play",
       "url": "https://prepx.vercel.app/manifest.json"
     }
   ],
