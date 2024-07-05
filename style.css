@@ -40,7 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #212121;
 }
 .greeting {
-  text-align: left;
+  text-align: right;
+  line-height: normal;
   font-size: 1.5rem;
   font-weight: 600;
   padding: 16px 0;
@@ -125,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .prepx--ads > h2 {
   display: flex;
   align-self: normal;
+  margin-top: 12px;
 }
 .ads--by {
   font-weight: 500;
