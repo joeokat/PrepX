@@ -70,9 +70,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .rating {
   display: flex;
-  gap: 4px;
   align-items: center;
   font-weight: lighter;
+  gap: 4px;
+  margin-top: 12px;
 }
 
 .reviews {
