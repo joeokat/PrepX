@@ -77,8 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 .reviews {
   display: flex;
   gap: 16px;
-  width: 300px;
   overflow-x: auto;
+}
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.reviews::-webkit-scrollbar {
+  display: none;
 }
 
 .subjects {
@@ -95,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hide scrollbar for other browsers */
-.subjects {
+.subjects, .reviews {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
 }
