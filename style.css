@@ -30,7 +30,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
 }
-
+.svg-icon {
+  align-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #212121;
+}
 .greeting {
   text-align: left;
   font-size: 1.5rem;
@@ -39,7 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 small {
-  color: #ffbb1c;
+  background: linear-gradient(45deg, rgb(115, 204, 175), rgb(41, 186, 150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner {
