@@ -1,6 +1,6 @@
 {
-  "short_name": "Prep X Consult",
-  "name": "Prep X Consult",
+  "short_name": "Prep Exams",
+  "name": "Prep Exams",
   "appid": "app.vercel.prepx",
   "lang": "en",
   "start_url": "/index.html",
@@ -8,7 +8,7 @@
   "theme_color": "#101010",
   "background_color": "#212121",
   "orientation": "portrait",
-  "description": "Ace your exams with a premium verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
+  "description": "Ace your exams with a verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
   "categories": [ "books", "education", "social", "news" ],
 
   "scope": "https://prepx.vercel.app",
