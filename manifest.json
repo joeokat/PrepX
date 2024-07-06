@@ -38,6 +38,13 @@
     }
   ],
 
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://prepx.vercel.app/manifest.json"
+    }
+  ],
+
   "display_override": [
     "window-controls-overlay",
     "standalone",
