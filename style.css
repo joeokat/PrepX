@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
 }
+button {
+  margin: 0;
+  border: none;
+}
 .svg-icon {
   display: flex;
   align-items: center;
@@ -39,6 +43,46 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   background-color: #212121;
 }
+.close {
+  float: right;
+  margin: 2.5em;
+  color: white;
+  font-weight: 700;
+  }
+nav {
+  left: auto;
+  bottom: auto;
+  font-weight: 500;
+  color: #D9D9D9;
+  background: #101010;
+  border: none;
+  height: 100vh;
+  transition: translate 0.5, display 0.5s ease-out allow-discrete;
+
+  translate: 100%;
+  &:popover-open {
+    translate: 0 0;
+
+    @starting-style {
+      translate 100% 0;
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 7em;
+
+  li {
+    padding: .5em 0;
+    color: #D9D9D9;
+    
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
 .greeting {
   text-align: right;
   line-height: normal;

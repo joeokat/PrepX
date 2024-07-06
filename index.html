@@ -26,8 +26,22 @@
     <main>
         <div class="menu-bar">
             <h2 class="greeting">Welcome to Prep</h2>
-            <div class="svg-icon"><img src="./assets/menu-icon.svg" alt="menu icon"></div>
+            <button popovertarget="menu" class="svg-icon">
+                <img src="./assets/menu-icon.svg" alt="menu icon">
+            </button>
         </div>
+
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="svg-icon close"> X </button>
+            <ul>
+                <!-- <li><a href="#">Lesson Notes Loading...</a></li>
+                <li><a href="#"> WASSCE Loading...</a></li>
+                <li><a href="#">Home Tution Loading...</a></li>
+                <li><a href="#">News Loading...</a></li> -->
+                <li><a class="whatsapp-btn" href="./subscribe.html"> Learners </a></li>
+                <li><a class="telegram-btn" href="./subscribe.html"> Facilitators </a></li>
+            </ul>
+        </nav>
         
         <div class="reviews">
             <div class="banner--card">                
