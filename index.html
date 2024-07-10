@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ace your exams with confidence with premium access to verified BECE and WASSCE exam scripts." />
+    
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-
     <link rel="manifest" href="/manifest.json">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Prep X: Exams Consult</title>
 </head>
 
 <body>  
-    <main>
-        <div class="menu-bar">
+    <header class="menu-bar">
             <h2 class="greeting">Welcome to Prep</h2>
             <button popovertarget="menu" class="svg-icon">
                 <img src="./assets/menu-icon.svg" alt="menu icon">
             </button>
-        </div>
 
         <nav popover role="menu" id="menu">
             <button popovertarget="menu" popovertargetaction="hide" class="svg-icon close"> X </button>
@@ -30,14 +28,17 @@
                 <!-- <li><a href="#">Lesson Notes Loading...</a></li>
                 <li><a href="#"> WASSCE Loading...</a></li>
                 <li><a href="#">Home Tution Loading...</a></li>
+                <li><a href="#">Job Vacancy...</a></li>
                 <li><a href="#">News Loading...</a></li> -->
-                <li><a class="whatsapp-btn" href="./subscribe.html"> Learners </a></li>
-                <li><a class="telegram-btn" href="./subscribe.html"> Facilitators </a></li>
+                <li><a class="whatsapp-btn" href="./subscribe.html"> Whatsapp Channel </a></li>
+                <li><a class="telegram-btn" href="./subscribe.html"> Telegram Channel </a></li>
             </ul>
         </nav>
-        
+    </header>
+    
+    <main>     
         <div class="reviews">
-            <div class="banner--card">                
+            <!-- <div class="banner--card">                
                 <div class="banner--row">
                     <img src="./assets/learner.png" alt="">
                     <div class="banner--col">
@@ -46,9 +47,9 @@
                     </div>
                 </div>
                 <p>Awwwn... see the way i am happy err only my results would make you proud </p>
-            </div>
+            </div> -->
 
-            <!-- <div class="banner--card">                
+            <div class="banner--card">                
                 <div class="banner--row">
                     <img src="./assets/learner.png" alt="">
                     <div class="banner--col">
@@ -59,7 +60,7 @@
                 <p>Say heat! heat!! heat!!! Yeye yeye... I pass finish oo. Cool pass koraa. Thank you Prep X.</p>
             </div>
 
-            <div class="banner--card">                
+            <!-- <div class="banner--card">                
                 <div class="banner--row">
                     <img src="./assets/tutor.png" alt="">
                     <div class="banner--col">
@@ -93,7 +94,6 @@
             <a href="./subscribe.html" class="sub"><p class="subject">Career Technology 🔥</p><img class="lock" src="./assets/lock.svg" alt="lock"></a>
         </div>
         <a class="subscribe-btn" href="./subscribe.html"> Download All Scripts <img src="./assets/verified.svg" alt="verified"></a>
-        
     </main>
 <script> navigator.serviceWorker.register("service-worker.js") </script>
 </body>
