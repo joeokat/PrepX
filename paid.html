@@ -9,21 +9,19 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-
     <link rel="manifest" href="/manifest.json">
-    <script>navigator.serviceWorker.register("service-worker.js")</script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Congratulations!</title>
 </head>
 
 <body>  
-    <main>
-        <div class="menu-bar">
-            <h2 class="greeting">Congratulations 🎉</h2>
+    <header class="menu-bar">
+            <h2 class="greeting">Congratulations 🎉 </h2>
             <a class="svg-icon" href="./index.html"><img src="./assets/back-icon.svg" alt="back icon"></a>
-        </div>
+    </header>
+    
+    <main>
         <img class="banner" src="./assets/banner.png" alt="banner">
         
         <!-- <a class="subscribe-btn"> Download Images <img src="./assets/image.svg" alt="image"> </a>
@@ -32,6 +30,8 @@
         <a class="telegram-btn" href="https://t.me/prepxconsult"> Telegram Members <img src="./assets/telegram.svg" alt="telegram"></a>
         <a class="cancel-btn" href="./index.html"> Return Home <img src="./assets/home.svg" alt="home"> </a>
     </main>
-    <!-- <script>navigator.serviceWorker.register("service-worker.js")</script>  -->
+
+    <footer> </footer>
+    <script> navigator.serviceWorker.register("service-worker.js") </script>
 </body>
 </html>
