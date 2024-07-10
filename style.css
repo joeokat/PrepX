@@ -25,15 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Add your custom styles below */
-.menu-bar {
+.menu--bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 button {
   margin: 0;
   border: none;
 }
+
 .svg-icon {
   display: flex;
   align-items: center;
@@ -43,12 +45,14 @@ button {
   border-radius: 50px;
   background-color: #212121;
 }
+
 .close {
   float: right;
   margin: 2.5em;
   color: white;
   font-weight: 700;
   }
+
 nav {
   left: auto;
   bottom: auto;
@@ -200,7 +204,7 @@ ul {
   margin: 24px 0;
   padding: 15px;
   border-radius: 12px;
-  border: 1px solid #6523cfce;
+  border: 1px solid #6523cf;
   background-color: #111011;
   position: relative;
 }
@@ -211,8 +215,8 @@ ul {
 }
 .ads--by {
   font-weight: 500;
-  color: #212121;
-  background-color: #fafafa;
+  color: #fafafa;
+  background-color: #6523ce;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   top: 0;
