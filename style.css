@@ -221,7 +221,7 @@ ul {
   border-bottom-left-radius: 12px;
   top: 0;
   right: 0;
-  padding: 2px;
+  padding: 2px 8px;
   position: absolute;
 }
 
