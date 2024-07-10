@@ -294,3 +294,9 @@ ul {
   height: 52px;
   padding: 0 24px;
 }
+
+@media screen and (display-mode: standalone) {
+  header {
+    height: 88px !important;
+  }
+}
