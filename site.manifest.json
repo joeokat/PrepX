@@ -4,7 +4,7 @@
   "appid": "app.vercel.prepx.twa",
   "lang": "en",
   "start_url": "/index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#101010",
   "background_color": "#212121",
   "orientation": "portrait",
