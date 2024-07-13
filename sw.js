@@ -20,9 +20,9 @@
       event.waitUntil(self.clients.claim())
     })
 
-    self.addEventListener('launch', (event) => {
-      event.waitUntil(clients.openWindow('/index.html'));
-    });
+    // self.addEventListener('launch', (event) => {
+    //   event.waitUntil(clients.openWindow('/index.html'));
+    // });
 
 
     self.addEventListener('fetch', event => {

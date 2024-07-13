@@ -143,6 +143,9 @@ nav a {
   flex-direction: row;
   gap: 8px;
 }
+.banner--row > img {
+  flex-shrink: 0;
+}
 .banner--col{
   display: flex;
   flex-direction: column;
