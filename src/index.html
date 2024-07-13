@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Ace your exams with confidence with premium access to verified BECE and WASSCE exam scripts." />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    
+    <link rel="manifest" href="/site.manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Prep X: Exams Consult</title>
+    <script src="src/index.js" defer></script>
+</head>
+
+<body>      
+    <main>     
+        <div>
+            <div class="header--bar">
+                <h2 class="greeting">Welcome to Prep</h2>
+                <button onclick = "showSidebar()" class="svg-icon">
+                    <img src="/assets/menu-icon.svg" alt="menu icon">
+                </button>
+            </div>
+            <nav class="side--menu">
+                <button onclick="hideSidebar()" id="close" class="svg-icon">
+                    <img src="/assets/close-icon.svg" alt="menu icon">
+                </button>
+                <ul>                   
+                    <li><a href="#"> News </a></li>
+                    <li><a href="#"> BECE </a></li>
+                    <li><a href="#"> WASSCE </a></li>
+                    <li><a href="#"> Lesson Notes </a></li>
+                    
+                    <li><a href="#"> Job Vacancy </a></li>
+                    <li><a href="#"> Install App </a></li>
+                
+                    <li><div class="cta--telegram"><a class="telegram-btn" href="https://t.me/prepxconsult"> Annoucements <img src="/assets/telegram.svg" alt="telegram"> </a></div></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="reviews">
+            <!-- <div class="banner--card">                
+                <div class="banner--row">
+                    <img src="/assets/learner.png" alt="">
+                    <div class="banner--col">
+                        <p>Gifty Samantha</p>
+                        <small>Learner • Saints Anglican JHS</small>
+                    </div>
+                </div>
+                <p>Awwwn... see the way i am happy err only my results would make you proud </p>
+            </div> -->
+
+            <!-- <div class="banner--card">                
+                <div class="banner--row">
+                    <img src="/assets/learner.png" alt="">
+                    <div class="banner--col">
+                        <p>Kingsley Kofi Mole</p>
+                        <small>Learner • Abavana JHS </small>
+                    </div>
+                </div>
+                <p>Say heat! heat!! heat!!! Yeye yeye... I pass finish oo. Cool pass koraa. Thank you Prep X.</p>
+            </div> -->
+
+            <div class="banner--card">                
+                <div class="banner--row">
+                    <img src="/assets/tutor.png" alt="">
+                    <div class="banner--col">
+                        <p>Patrick Kwateng</p>
+                        <small>Home Tutor</small>
+                    </div>
+                </div>
+                <p>This new curriculum scripts is no joke. Herh! Prep X, you do all. Thank you.</p>
+            </div>
+        </div>
+
+        <div class="rating">
+            <img class="star" src="/assets/star.svg" alt="star">
+            4.8 out of 5 based on 3981 reviews
+        </div>
+        
+        <p class="headline">
+            Ace your exams with a verified NOV/DEC Exams, Mock Exams and Sample Questions.
+        </p>
+        <p class="bece">BECE DITO DITO 🔥</p>
+        <div class="subjects">
+            <a href="./subscribe.html" class="sub"><p class="subject">English Language 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Religious & Moral Education 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Integrated Science 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Computing 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Social Studies 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Creative Arts & Design 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Mathematics 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Ghanaian Language 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">French 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+            <a href="./subscribe.html" class="sub"><p class="subject">Career Technology 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
+        </div>
+        <a class="subscribe-btn" href="./subscribe.html"> Download All Scripts <img src="/assets/verified.svg" alt="verified"></a>
+    </main>
+
+    <!-- <footer>
+        <p>Copyright &copy; 2021 PrepX. All rights reserved.</p>  
+    </footer>  -->
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.side--menu');
+            sidebar.style.display = 'flex';
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.side--menu');
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
