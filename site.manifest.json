@@ -3,56 +3,35 @@
   "name": "Prep Exams",
   "appid": "app.vercel.prepx.twa",
   "lang": "en",
-  "start_url": "/src/index.html",
+  "start_url": "/index.html",
   "display": "fullscreen",
   "theme_color": "#f9f9f9",
   "background_color": "#fafafa",
   "orientation": "portrait",
-  "description": "Ace your exams with a verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
   "categories": [ "books", "education", "social", "news" ],
-
-  "scope": "/index.html",
-  "dir": "auto",
-
-  "background": {
-  "service": "sw.js",
-  "service_worker": "sw.js"
-  },
-
-  "related_applications": [
-    {
-      "platform": "webapp",
-      "url": "https://prepx.vercel.app/manifest.json"
-    }
-  ],
-
-  "display_override": [
-    "window-controls-overlay",
-    "standalone",
-    "browser",
-    "minimal-UI"
-  ],
+  "description": "Ace your exams with a verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
+  
   
   "icons": [
     {
-      "src": "assets/favicon.ico",
+      "src": "/assets/favicon.ico",
       "sizes": "64x64 48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "assets/android-chrome-144x144.png",
+      "src": "/assets/android-chrome-144x144.png",
       "type": "image/png",
       "sizes": "144x144",
       "purpose": "any"
     },
     {
-      "src": "assets/android-chrome-192x192.png",
+      "src": "/assets/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "assets/android-chrome-512x512.png",
+      "src": "/assets/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"

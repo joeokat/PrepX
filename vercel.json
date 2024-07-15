@@ -1,7 +1,0 @@
-{
-  "public": "src",
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/manifest.json", "destination": "/manifest.json" }
-  ]
-}
