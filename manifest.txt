@@ -1,10 +1,7 @@
  "scope": "/index.html",
   "dir": "auto",
 
-  "background": {
-  "service": "sw.js",
-  "service_worker": "sw.js"
-  },
+  
   "related_applications": [
     {
       "platform": "webapp",

@@ -4,7 +4,7 @@
   "appid": "app.vercel.prepx.twa",
   "lang": "en",
   "start_url": "/index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#f9f9f9",
   "background_color": "#fafafa",
   "orientation": "portrait",
@@ -43,6 +43,10 @@
       "type": "image/png",
       "label": "Screenshot 1"
     }
-  ]
-  
+  ],
+
+  "background": {
+  "service": "sw.js",
+  "service_worker": "sw.js"
+  }
 }
