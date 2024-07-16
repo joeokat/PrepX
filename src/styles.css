@@ -38,6 +38,15 @@ footer{
   padding: 18px 0;
 }
 
+.login--screen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  padding: 0 16px;
+  margin-bottom: 44px;
+}
+
 .header--bar {
   display: flex;
   flex-direction: row-reverse;

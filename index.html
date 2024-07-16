@@ -14,37 +14,12 @@
     
     <link rel="manifest" href="/site.manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Prep X: Exams Consult</title>
+    <title>Prep X: Sign in</title>
 </head>
 
 <body>      
-    <main>     
-        <div>
-            <div class="header--bar">
-                <h2 class="greeting">Welcome to Prep</h2>
-                <button onclick = "showSidebar()" class="svg-icon">
-                    <img src="/assets/menu-icon.svg" alt="menu icon">
-                </button>
-            </div>
-            <nav class="side--menu">
-                <button onclick="hideSidebar()" id="close" class="svg-icon">
-                    <img src="/assets/close-icon.svg" alt="menu icon">
-                </button>
-                <ul>                   
-                    <li><a href="#"> News </a></li>
-                    <li><a href="#"> BECE </a></li>
-                    <li><a href="#"> WASSCE </a></li>
-                    <li><a href="#"> Lesson Notes </a></li>
-                    
-                    <li><a href="#"> Job Vacancy </a></li>
-                    <li><a href="#"> Install App </a></li>
-                
-                    <li><div class="cta--telegram"><a class="telegram-btn" href="https://t.me/prepxconsult"> Annoucements <img src="/assets/telegram.svg" alt="telegram"> </a></div></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="reviews">
+    <main class="home--screen">     
+        <section class="reviews">
             <!-- <div class="banner--card">                
                 <div class="banner--row">
                     <img src="/assets/learner.png" alt="">
@@ -77,46 +52,23 @@
                 </div>
                 <p>This new curriculum scripts is no joke. Herh! Prep X, you do all. Thank you.</p>
             </div>
-        </div>
+        </section>  
 
-        <div class="rating">
-            <img class="star" src="/assets/star.svg" alt="star">
-            4.8 out of 5 based on 3981 reviews
-        </div>
-        
-        <p class="headline">
-            Ace your exams with a verified NOV/DEC Exams, Mock Exams and Sample Questions.
-        </p>
-        <p class="bece">BECE DITO DITO 🔥</p>
-        <div class="subjects">
-            <a href="src/subscribe.html" class="sub"><p class="subject">English Language 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Religious & Moral Education 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Integrated Science 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Computing 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Social Studies 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Creative Arts & Design 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Mathematics 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Ghanaian Language 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">French 🍀</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-            <a href="src/subscribe.html" class="sub"><p class="subject">Career Technology 🔥</p><img class="lock" src="/assets/unlock.svg" alt="lock"></a>
-        </div>
-        <a class="subscribe-btn" href="/src/subscribe.html"> Download All Scripts <img src="/assets/verified.svg" alt="verified"></a>
+        <section>
+            <div class="login--screen">
+                <!-- <img src="/assets/logo.png" alt="logo"> -->
+                <h1>Welcome to Prep Exam Consult</h1>
+                <p>Get all your educational news and materials to prepare your final year students</p>
+            </div>
+            <a class="subscribe-btn" href="/src/beceWassce.html"> Sign in now </a>
+            <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029VaeRav7JuyAImX0dzq0N"><img src="/assets/whatsapp.svg" alt="whatsapp"> Follow us </a>
+        </section>
     </main>
 
     <!-- <footer>
         <p>Copyright &copy; 2021 PrepX. All rights reserved.</p>  
     </footer>  -->
-    <script>
-        function showSidebar(){
-            const sidebar = document.querySelector('.side--menu');
-            sidebar.style.display = 'flex';
-        }
-
-        function hideSidebar(){
-            const sidebar = document.querySelector('.side--menu');
-            sidebar.style.display = 'none';
-        }
-    </script>
+    
     <script src="/sw.js"></script>
 </body>
 </html>
