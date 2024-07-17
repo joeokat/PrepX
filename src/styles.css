@@ -6,7 +6,7 @@
 }
 
 /* Global Styles */
-body {
+body, .home--screen {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -27,17 +27,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Add your custom styles below */
 
-footer{
+footer, .footer{
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.home--screen{
-  margin: 0 auto;
 }
 
 .login--screen {
