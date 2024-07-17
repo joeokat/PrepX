@@ -10,11 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-
   color: aliceblue;
   background-color: #101010;
   font-family: 'Poppins', Arial, sans-serif;
-
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -35,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 .login--screen {
-  text-align: justify;
+  /* text-align: center; */
   margin: 40px;
 }
 .login--title {
