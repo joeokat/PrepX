@@ -9,16 +9,15 @@
 body {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 
   color: aliceblue;
   background-color: #101010;
   font-family: 'Poppins', Arial, sans-serif;
 
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-width: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 20px;
 }
 
