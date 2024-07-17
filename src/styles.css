@@ -36,6 +36,10 @@ footer{
   padding: 20px;
 }
 
+.home--screen{
+  margin: 0 auto;
+}
+
 .login--screen {
   display: flex;
   flex-direction: column;
