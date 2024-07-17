@@ -24,21 +24,23 @@ h1, h2, h3, h4, h5, h6 {
   color: aliceblue;
   margin-bottom: 8px;
 }
+
+/* Add your custom styles below */
 .home--screen {
   display: flex;
   /* flex-direction: column; */
   align-items: center;
 
-  max-width: 600px;
+  /* max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px; */
 }
-/* Add your custom styles below */
 
 footer, .footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
