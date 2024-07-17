@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 footer{
   display: flex;
   justify-content: center;
- 
+  align-items: center;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
