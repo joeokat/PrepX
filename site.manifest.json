@@ -1,8 +1,8 @@
 {
-  "short_name": "Prep Exams",
-  "name": "Prep Exams",
-  "appid": "app.vercel.prepx.twa",
   "lang": "en",
+  "name": "Prep X Consult",
+  "short_name": "Prep X Consult",
+  "appid": "app.vercel.prepx.twa",
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#f9f9f9",
@@ -10,6 +10,8 @@
   "orientation": "portrait",
   "categories": [ "books", "education", "social", "news" ],
   "description": "Ace your exams with a verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
+  "scope": "/index.html",
+  "dir": "auto",
   
   "icons": [
     {
@@ -48,5 +50,19 @@
   "background": {
   "service": "sw.js",
   "service_worker": "sw.js"
-  }
+  },
+  
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://prepx.vercel.app/manifest.json"
+    }
+  ],
+
+   "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser",
+    "minimal-UI"
+  ]
 }

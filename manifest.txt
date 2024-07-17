@@ -1,17 +1,2 @@
- "scope": "/index.html",
-  "dir": "auto",
-
-  
-  "related_applications": [
-    {
-      "platform": "webapp",
-      "url": "https://prepx.vercel.app/manifest.json"
-    }
-  ],
-   "display_override": [
-    "window-controls-overlay",
-    "standalone",
-    "browser",
-    "minimal-UI"
-  ],
+ 
   

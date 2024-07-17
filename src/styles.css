@@ -32,15 +32,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   gap: 24PX;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
-
 .login--screen {
-  text-align: center;
+  text-align: justify;
   margin: 40px;
 }
 .login--title {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 500;
 }
 .header--bar {
