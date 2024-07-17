@@ -42,6 +42,7 @@ footer, .footer{
 }
 .login--title {
   font-size: 24px;
+  font-weight: 500;
 }
 .header--bar {
   display: flex;
