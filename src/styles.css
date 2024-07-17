@@ -27,10 +27,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Add your custom styles below */
 .login--container {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make sure the container takes up the full viewport height */
   margin: 0 auto;
-  max-width: 800px;
 }
+
 
 .login--screen {
   text-align: center;
