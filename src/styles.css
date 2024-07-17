@@ -26,14 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Add your custom styles below */
-footer, .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 600px;
+.login--container {
+  display: block;
   margin: 0 auto;
-  padding: 16px;
+  max-width: 800px;
 }
 
 .login--screen {
@@ -50,6 +46,7 @@ footer, .footer{
   align-items: center;
   justify-content: space-between;
 }
+
 .svg-icon {
   display: flex;
   align-items: center;
@@ -115,6 +112,16 @@ nav a {
 .cta--telegram{
   margin: 0 1.6em;
   max-width: 300px;
+}
+
+footer, .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 .greeting {
