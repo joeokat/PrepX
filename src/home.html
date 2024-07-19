@@ -8,6 +8,7 @@
     <meta name="description" content="Ace your exams with confidence with premium access to verified BECE and WASSCE exam scripts." />
     
     <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/css/cardStyles.css">
     <link rel="apple-touch-icon" sizes="192x192" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
@@ -18,38 +19,91 @@
 </head>
 
 <body>      
-    <main>     
-        <section>
-            <div class="header--bar">
-                <h2 class="greeting">Welcome to Prep</h2>
-                <button onclick = "showSidebar()" class="svg-icon">
-                    <img src="/assets/menu-icon.svg" alt="menu icon">
-                </button>
+    <header>
+        <div class="header--bar">
+            <img src="/assets/logo.svg" alt="logo">
+            <button onclick = "showSidebar()" class="svg-icon">
+                <img src="/assets/menu-icon.svg" alt="menu icon">
+            </button>
+        </div>
+
+        <nav class="side--menu">
+            <button onclick="hideSidebar()" id="close" class="svg-icon">
+                <img src="/assets/close-icon.svg" alt="menu icon">
+            </button>
+            <ul>                   
+                <li><a href="#"> What's New </a></li>
+                <li><a href="./revision.html"> Revision </a></li>
+                <li><a href="./lessonNotes.html"> Lesson Notes </a></li>
+                <li><a href="./jobAlert.html"> Job Alert </a></li>
+                <li><a href="#" id="installLink"> Install App </a></li>
+            
+                <li><div class="cta--telegram"><a class="telegram-btn" href="https://t.me/prepxconsult"> Annoucements <img src="/assets/telegram.svg" alt="telegram"> </a></div></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card-wrapper">
+            <h2 style="font-weight: 500;">Categories</h2>
+            <div class="cards-container">
+                <a href="revision.html" class="card-link">
+                    <div class="card">
+                        <!-- <img src="icon1.png" alt="Icon 1" class="card-icon"> -->
+                        <h3 class="card-heading">Revision</h3>
+                        <p class="card-subheading">20+ subjects</p>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <!-- <img src="icon1.png" alt="Icon 1" class="card-icon"> -->
+                        <h3 class="card-heading">Note</h3>
+                        <p class="card-subheading">coming soon</p>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <!-- <img src="icon1.png" alt="Icon 1" class="card-icon"> -->
+                        <h3 class="card-heading">Job Alert</h3>
+                        <p class="card-subheading">coming soon</p>
+                    </div>
+                </a>
+                <!-- Add more cards as needed -->
             </div>
+        </div>
 
-            <nav class="side--menu">
-                <button onclick="hideSidebar()" id="close" class="svg-icon">
-                    <img src="/assets/close-icon.svg" alt="menu icon">
-                </button>
-                <ul>                   
-                    <li><a href="#"> News </a></li>
-                    <li><a href="#"> BECE </a></li>
-                    <li><a href="#"> WASSCE </a></li>
-                    <li><a href="#"> Lesson Notes </a></li>
-                    
-                    <li><a href="#"> Job Alert </a></li>
-                    <li><a href="#"> Install App </a></li>
+        <!-- <div class="card-wrapper">
+            <h2 style="font-weight: 500;">Trending on Prep X today</h2>
+            <div class="cards-container">
+                <a href="another-page.html" class="card-link">
+                    <div class="card">
+                        <img src="icon1.png" alt="Icon 1" class="card-icon">
+                        <h3 class="card-heading">Card 1</h3>
+                        <p class="card-subheading">Subheading 1</p>
+                    </div>
+                </a>
+                <a href="another-page.html" class="card-link">
+                    <div class="card">
+                        <img src="icon1.png" alt="Icon 1" class="card-icon">
+                        <h3 class="card-heading">Card 1</h3>
+                        <p class="card-subheading">Subheading 1</p>
+                    </div>
+                </a>
+                <a href="another-page.html" class="card-link">
+                    <div class="card">
+                        <img src="icon1.png" alt="Icon 1" class="card-icon">
+                        <h3 class="card-heading">Card 1</h3>
+                        <p class="card-subheading">Subheading 1</p>
+                    </div>
+                </a>
                 
-                    <li><div class="cta--telegram"><a class="telegram-btn" href="https://t.me/prepxconsult"> Annoucements <img src="/assets/telegram.svg" alt="telegram"> </a></div></li>
-                </ul>
-            </nav>
-        </section>
-
-
+            </div>
+        </div> -->
+    </main>
     <footer>
-        <p>Designed with 🤍 for Facilitator <br /> Copyright &copy; 2021 PrepX. All rights reserved.</p>  
+        <p>Designed with 🤍 by BYOI <br /> <br /> Copyright &copy; 2024 PrepX. All rights reserved.</p>  
     </footer>
     <script src="/src/index.js"></script>
+    <script src="/install.js"></script>
     <script src="/sw.js"></script>
 </body>
 </html>
