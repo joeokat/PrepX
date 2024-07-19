@@ -29,18 +29,31 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24PX;
-  height: 100vh;
+  margin-top: 25%;
 }
-.login--screen {
+.login--caption {
   text-align: center;
-  margin: 40px;
-  max-width: 600px;
+  margin-bottom: 30px;
 }
 .login--title {
   font-size: 32px;
   font-weight: 500;
 }
+.login--screen{
+  position: relative;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
 .header--bar {
   display: flex;
   flex-direction: row-reverse;
@@ -155,6 +168,7 @@ footer, .footer{
 .banner--row{
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 8px;
 }
 .banner--row > img {
@@ -165,13 +179,14 @@ footer, .footer{
   flex-direction: column;
   align-items: flex-start;
 }
-.banner--col > p {
+.banner--col > h1 {
   color: #fafafa;
   font-size: 20px;
   font-weight: 600;
+  line-height: 10px;
 }
-.banner--col small{
-  font-size: 16px;
+.banner--col p {
+  font-size: 15px;
 }
 
 .banner {
@@ -275,7 +290,7 @@ footer, .footer{
   font-weight: 600;
   background-color: aliceblue;
   text-decoration: none;
-  margin-top: 24px;
+  margin-top: 14px;
   border-radius: 24px;
   height: 52px;
   padding: 0 24px;  
@@ -290,7 +305,7 @@ footer, .footer{
   font-weight: 600;
   background-color: #00C54F;
   text-decoration: none;
-  margin-top: 24px;
+  margin-top: 14px;
   border-radius: 24px;
   height: 52px;
   padding: 0 24px;
@@ -305,7 +320,7 @@ footer, .footer{
   font-weight: 600;
   background-color: #239CCF;
   text-decoration: none;
-  margin-top: 24px;
+  margin-top: 14px;
   border-radius: 24px;
   height: 52px;
   padding: 0 24px;
@@ -338,10 +353,4 @@ footer, .footer{
   border-radius: 24px;
   height: 52px;
   padding: 0 24px;
-}
-
-@media screen and (display-mode: standalone) {
-  .header--bar {
-    height: 88px !important;
-  }
 }
