@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40%;
+  margin-top: 50%;
 }
 .login--caption {
   text-align: center;
@@ -38,9 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 .login--title {
   font-size: 32px;
   font-weight: 500;
-}
-.login--screen{
-  position: relative;
 }
 .copyright {
   display: flex;
