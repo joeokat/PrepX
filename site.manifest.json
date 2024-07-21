@@ -9,7 +9,7 @@
   "background_color": "#fafafa",
   "orientation": "portrait",
   "categories": [ "books", "education", "social", "news" ],
-  "description": "Ace your exams with a verified BECE/WASSCE/NOVDEC exam scripts, Mock Exams, and Sample Questions.",
+  "description": "A Social Learning Platform for College & High Schools",
   "scope": "/index.html",
   "dir": "auto",
   
@@ -57,5 +57,10 @@
       "platform": "webapp",
       "url": "https://prepx.vercel.app/manifest.json"
     }
+  ],
+  
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
   ]
 }
