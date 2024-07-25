@@ -107,6 +107,6 @@ const HOSTNAME_WHITELIST = [
     })
 
 // Force a service worker update periodically
-setInterval(() => {
-    self.registration.update();
-}, 3600000); // Check for updates every hour
+//setInterval(() => {
+//    self.registration.update();
+//}, 3600000); // Check for updates every hour
