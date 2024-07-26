@@ -5,8 +5,8 @@
 .card-wrapper {
  display: flex;
  flex-direction: column;
- /* gap: 4px; */
- margin-bottom: 16px;
+ gap: 4px;
+ margin-bottom: 18px;
 }
 
 .cards-container {
@@ -26,11 +26,11 @@
 .card {
     min-width: 150px;
     flex: 0 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
+    padding: 20px;    
     text-align: center;
+    border-radius: 24px;    
+    border: 1.5px solid #FBB12C;
+    background-color: #1D232A;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,10 +43,12 @@
 .card-heading {
     margin: 10px 0 5px;
     font-size: 1.2em;
-    color: #333;
+    font-weight: 500;
+    /* color: #333; */
+    color: #f6f6f6;
 }
 
 .card-subheading {
     font-size: 0.9em;
-    color: #666;
+    color: #ccc;
 }
