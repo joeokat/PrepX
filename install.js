@@ -3,7 +3,7 @@ let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
-  document.getElementById('installLink').style.display = 'block';
+  document.getElementById('installLink').style.display = 'flex';
 });
 
 document.getElementById('installLink').addEventListener('click', async (event) => {
