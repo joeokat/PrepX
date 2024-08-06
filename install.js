@@ -5,7 +5,12 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
 });
 
+document.getElementById('installLink').style.display = 'block';
+});
+
 document.getElementById('installLink').addEventListener('click', async (event) => {
+document.getElementById('installLink').style.display = 'none';
+
   event.preventDefault();
   if (deferredPrompt) {
     deferredPrompt.prompt();
