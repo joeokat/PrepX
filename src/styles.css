@@ -357,3 +357,17 @@ nav a {
   height: 52px;
   padding: 0 24px;
 }
+
+.small-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  background-color: #2168ec;
+  text-decoration: none;
+  margin-top: 24px;
+  border-radius: 24px;
+  height: 32px;
+  padding: 0 24px;
+}
