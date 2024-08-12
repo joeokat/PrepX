@@ -1,0 +1,26 @@
+.foryou--row{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.foryou--row > p{
+    font-weight: 600;
+}
+.foryou {
+    font-weight: 500;     
+    font-size: 1.5rem;
+}
+
+.nearby--row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.nearby--dp{
+    display: flex;
+    gap: 0.5rem;
+}
+.nearby--dp > img{
+    
+}
