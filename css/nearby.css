@@ -12,15 +12,79 @@
     font-size: 1.5rem;
 }
 
+.nearby--col{
+    display: flex;
+    flex-direction: column;
+}
 .nearby--row{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    align-items: center;
 }
 .nearby--dp{
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+.nearby--info{
+    text-align: left;
+}
+.nearby--user{
+display: flex;
+gap: 5px;
+}
+.nearby--user > p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.nearby--info > small {
+    font-size: 15px;
+    font-weight: 500;
+    color: #eeeeee;
 }
 .nearby--dp > img{
-    
+    width: 60px;
+    height: auto;
+    object-fit: contain;
 }
+.nearby--desc{
+    margin: 16px 0;
+}
+.btn--row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 24px 0;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 15px;
+    border-radius: 22px;
+    background-color: #212121;
+}
+.star-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    background-color: #FBB12C;
+    padding: 10px 20px;
+  }
+.social--btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fafafa;
+    padding: 10px 20px;
+  }

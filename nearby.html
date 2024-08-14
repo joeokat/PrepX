@@ -48,16 +48,27 @@
                 </div>
                 
                
-                <div class="nearby--row">
-                    <div class="nearby--dp">
-                        <img src="/assets/learner.png" alt="display picture">
-                        <div class="nearby--col">
-                            <h1>ItsChela</h1>
-                            <p>Learn Maths the easy way</p>
+                <div class="nearby--col">
+                    <div class="nearby--row">
+                        <div class="nearby--dp">
+                            <img src="/assets/learner.png" alt="display picture">
+                            <div class="nearby--info">
+                                <div class="nearby--user"><p>Joeokat</p><img src="/assets/redbadge.svg" alt="socials"></div>
+                                <small>Digital Nomad </small>
+                            </div>
                         </div>
+                        <div class="stars"> 231k <img src="/assets/stars.svg" alt="socials"></div>
                     </div>
 
-                    <button class="small-btn" >Link Up</button>
+                    <p class="nearby--desc">I help facilitators develop multiple income streams online effortlessly. </p>
+                    <div class="btn--row">
+                        <a class="social--btns" ><img src="/assets/facebk.svg" alt="socials"></a>
+                        <a class="social--btns" ><img src="/assets/instagram.svg" alt="socials"></a>
+                        <a class="social--btns" ><img src="/assets/whatsap.svg" alt="socials"></a>
+                        <a class="social--btns" ><img src="/assets/tiktok.svg" alt="socials"></a>
+                        <a class="social--btns" ><img src="/assets/snapchat.svg" alt="socials"></a>
+                        <button class="star-btn" id="starButton" onclick="stars()">Give Star </button>
+                    </div>
                 </div>
             
                 
@@ -84,6 +95,7 @@
                     sidebar.style.display = 'none';
                 }
             </script>
+            <script src="/star.js"></script>
             <script src="/sw.js"></script>
         </body>
     </html>
