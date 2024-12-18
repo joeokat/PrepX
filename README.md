@@ -1,3 +1,6 @@
+# This repository is no longer receiving updates.
+## To help develop new features or make a new pull request kindly clone the PrepXocial repository built with Svelte.js. Thank You!
+
 # Prep X: Exam Consult
 
 Have you already spread the word about Prep X with your friends & family?
